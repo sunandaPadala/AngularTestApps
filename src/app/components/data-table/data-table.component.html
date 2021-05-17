@@ -1,0 +1,26 @@
+<p-table [columns]="cols" [value]="tableValues" styleClass="p-datatable-sm" class="table" 
+[resizableColumns]="true" [paginator]="true" [rows]="10" [showCurrentPageReport]="true" 
+         [rowsPerPageOptions]="[10,25,50]">
+        <ng-template pTemplate="colgroup">
+            <colgroup>
+                <col style="width:15%">
+                <col style="width:15%">
+                <col style="width:35%">
+                <col style="width:35%">
+            </colgroup>
+        </ng-template>
+    <ng-template pTemplate="header" let-columns>
+        <tr>
+               <th *ngFor="let col of columns" pResizableColumn>
+                {{col.header}}
+            </th>
+        </tr>
+    </ng-template>
+    <ng-template pTemplate="body" let-rowData let-columns="columns">
+        <tr>
+            <td *ngFor="let col of columns" class="text">
+                {{rowData[col.field]}}
+            </td>
+        </tr>
+    </ng-template>
+</p-table>
