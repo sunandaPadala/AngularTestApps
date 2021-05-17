@@ -6,8 +6,3 @@
 .table{
     width: 200px;
 }
-@media (min-width: 300px) and (max-width: 767px) {
-    .table{
-        overflow-x: visible;
-    }
-}
