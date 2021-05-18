@@ -1,4 +1,4 @@
- import { Component,OnInit } from '@angular/core';
+import { Component,OnInit } from '@angular/core';
 import {MenuItem} from 'primeng/api';
 
 @Component({
@@ -8,7 +8,7 @@ import {MenuItem} from 'primeng/api';
 })
 export class SidenavComponent implements OnInit {
 
-  items: MenuItem[];
+ items: MenuItem[];
 
   constructor() { }
 
