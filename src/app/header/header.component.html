@@ -1,10 +1,16 @@
 <p-toolbar>
   <div class="p-toolbar-group-left">
-      <img src="../assets/images/logo.jpeg">
-  </div>
+    <p-sidebar [(visible)]="display">
+      <div *ngFor="let item of items">
+        <p>{{item.label}}</p>
+      </div>
+    </p-sidebar>
+    <p-button type="text" class="overlay" (click)="display = true" icon="pi pi-list"></p-button>
+    <img class="logo" src="../assets/images/logo.jpeg">
+    </div>
 
   <div class="p-toolbar-group-right">
-    <i class="pi pi-users">Login</i>
+    <button pButton type="button" class="icon" icon="pi pi-users" ></button>
   </div>
 </p-toolbar>
 

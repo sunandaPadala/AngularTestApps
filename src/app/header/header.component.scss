@@ -1,7 +1,26 @@
  ::ng-deep .p-toolbar{
   background-color: cadetblue;
-  .pi-users{
-    font-size: 1.5rem;
-    margin-right: 20px;
+ .logo{
+    width:250px;
   }
- }
+  .icon{
+    background-color: darkslategray;
+    border-radius: 70px;
+  }
+}
+
+.overlay{
+  display:none
+}
+ @media (min-width: 300px) and (max-width: 767px) {
+  .overlay{
+     display: block;
+    }
+  .logo{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px
+  }
+}
+
+

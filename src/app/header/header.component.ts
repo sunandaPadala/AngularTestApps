@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import {MenuItem} from 'primeng/api';
 
 @Component({
   selector: 'app-header',
@@ -7,10 +6,18 @@ import {MenuItem} from 'primeng/api';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
+
+  display = false;
+  items: any;
   constructor() { }
 
   ngOnInit(): void {
-
+    this.items = [
+      {label: 'Sample Table'},
+      {label: 'Pagination Table'},
+      {label: 'Forms'},
+      {label: 'Forms with Upload'}
+  ];
   }
 
   }

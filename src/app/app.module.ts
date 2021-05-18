@@ -9,7 +9,7 @@ import {ToolbarModule} from 'primeng/toolbar';
 import {ButtonModule} from 'primeng/button';
 import {MenuModule} from 'primeng/menu';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
-
+import {SidebarModule} from 'primeng/sidebar';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,7 +23,8 @@ import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
     ToolbarModule,
     ButtonModule,
     MenuModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    SidebarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
