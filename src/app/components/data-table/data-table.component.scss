@@ -3,6 +3,13 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
-.table{
-    width: 200px;
+.pi{
+    color:#06a2b7;
+}
+::ng-deep .p-datatable .p-datatable-header{
+    background-color:#06a2b7;
+    color: white;
+}
+::ng-deep .p-datatable .p-datatable-tbody > tr:hover{
+    background-color:#add8e6;
 }
