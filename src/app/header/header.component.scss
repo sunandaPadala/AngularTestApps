@@ -16,6 +16,9 @@
   .overlay{
      display: block;
     }
+  :host ::ng-deep .p-sidebar-left{
+    width:200px !important;
+  }
   .logo{
     margin-left: 10px;
     width: 100px;
