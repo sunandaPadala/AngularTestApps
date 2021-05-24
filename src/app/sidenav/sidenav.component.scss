@@ -1,12 +1,15 @@
 ::ng-deep .p-menu{
+  margin-top: 0.1px;
   width: 15%;
-  position: fixed;
   height: 100%;
-  background-color: cadetblue;
+  position: fixed;
+  background: lavenderblush;
+  border-radius: 0px;
+  border:0px
 }
 
 @media (min-width: 300px) and (max-width: 767px) {
-  ::ng-deep .p-menu{
+  :host ::ng-deep .p-menu{
     display: none;
   }
 }
