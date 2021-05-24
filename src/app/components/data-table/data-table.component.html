@@ -1,6 +1,6 @@
-<div class="p-grid p-jc-center">
+<div class="p-grid p-jc-center vertical-align">
     <div class="p-col-10 p-lg-6">
-        <p-table [columns]="cols" [value]="tableValues" styleClass="p-datatable-sm" 
+        <p-table [columns]="cols" [value]="tableValues" styleClass="p-datatable-sm" [scrollable]="true" scrollHeight="350px"
         [paginator]="true" [rows]="10" [showCurrentPageReport]="true" 
                  [rowsPerPageOptions]="[10,25,50]">
                  <ng-template pTemplate="caption">
