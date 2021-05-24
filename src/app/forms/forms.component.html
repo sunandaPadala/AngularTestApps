@@ -1,0 +1,28 @@
+<div class="p-shadow-1">
+<form [formGroup]="userForm">
+  <div class="p-d-flex"><h2>Register Form</h2></div>
+  <div class="p-fluid p-formgrid p-grid">
+    <div class="p-field p-col-12 p-md-6">
+        <label class="name">Firstname</label>
+        <input class="inputname" type="text" pInputText formControlName="firstName">
+    </div>
+    <div class="p-field p-col-12 p-md-6">
+        <label class="name">Lastname</label>
+        <input class="inputname" type="text" pInputText formControlName="lastName">
+    </div>
+    <div class="p-field p-col-12 p-md-6">
+      <label class="name">Phone Number</label>
+      <input class="inputname" type="text" pInputText formControlName="phonenumber">
+  </div>
+  <div class="p-field p-col-12 p-md-3">
+      <label class="name">Email ID</label>
+      <input class="inputname" type="text" pInputText formControlName="emailid">
+  </div>
+    <div class="p-field p-col-12">
+        <label class="name">Address</label>
+        <textarea class="address" type="text" rows="4" pInputTextarea formControlName="address"></textarea>
+    </div>
+</div>
+    <button pButton type="button" label="Sign Up" class="p-button-secondary"></button>
+</form>
+</div>
