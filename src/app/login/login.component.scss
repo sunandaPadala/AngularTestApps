@@ -1,0 +1,72 @@
+.main-container{ 
+  height: 100%;
+  background-image: url("../../assets/background.png");  
+  background-size: cover;
+  background-color: #045D67;
+  font-family: 'Roboto';
+}
+
+.logo-container {
+  background-color: #A32036;
+}
+
+.logo {
+  // padding: 25px 100px;
+  padding: 1.56rem 6.25rem;
+}
+
+.login-container {
+  overflow: scroll;
+  border-radius: 12px;
+  margin: 1.56rem;
+}
+
+.input-container {
+  background-color: #fff;
+  // padding: 25px 45px;
+  padding: 1.56rem 2.81rem;
+}
+
+.login-header {
+  font-weight: 500;
+  // font-size: 18px;
+  font-size: 1.12rem;
+}
+
+.input-label {
+  font-weight: 400;
+  // font-size: 16px;
+  font-size: 1rem;
+  // margin-bottom: 5px;
+  margin-bottom: 0.31rem;
+  color: #A32036;
+  // margin-top: 25px;
+  margin-top: 1.56rem;
+}
+
+.input-box {
+  width: 100%;
+  border: 1px solid #E0E0E0;
+  border-radius: 10px;
+  height: 32px;
+}
+
+.login-options {
+  // margin-top:25px;
+  margin-top: 1.56rem;
+}
+
+.options-label {
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.login-button {
+  background-color: #A32036;
+  color: #fff;
+  border: 1px solid #E0E0E0;
+  border-radius: 20px;
+  // margin-top: 25px;
+  margin-top: 1.56rem;
+  padding: 10px 60px;
+}
