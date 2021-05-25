@@ -1,0 +1,81 @@
+.header{
+    width: 100%;
+    height: 60px;
+    background-color: #045d67;
+    color: white;
+}
+.headerTabs{
+    margin-top: 34px;
+
+.my-lanes{
+    padding: 10px;
+    /* top: 40px; */
+    background-color: white;
+    color: black;
+    margin-right: 5px;
+    border-top-right-radius: 10px;
+}
+.active-lanes{
+    padding: 10px;
+    /* top: 40px; */
+    background-color: lightblue;
+    color: black;
+    margin-right: 5px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+}
+.name{
+    margin-top: 22px;
+    margin-right: 14px;
+    label{
+        margin-right: 14px;
+    }
+}
+.tabs{
+    background-color: white;
+}
+.p-input-icon-left > .p-inputtext{
+    background: #F6F8F9;
+    border: 2px solid #EAECED;
+    border-radius: 52px;
+    height: 42px;
+    width: 233px;
+    margin-right: 9px;
+    margin-top: 4px;    
+}
+.upload-btn{
+    width: 132px;
+    height: 42px;
+    border: 1px solid #DDDFE1;
+    box-sizing: border-box;
+    border-radius: 20px;
+    background-color: #f6f8f9 !important;
+    color: #68c4db;
+    text-align: center;
+}
+.content{
+    margin-top: 9px;
+    background: #f6f8f9;
+    padding: 33px 16px;
+}
+::ng-deep .p-card-header{
+   // width: 329px;
+    height: 47.71px;
+    background: #045D67;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+hr{
+    width: 100%;
+}
+.card{
+    width: 329px;
+    input{
+        margin-bottom: 10px;
+    }
+}

@@ -1,0 +1,195 @@
+<div class="p-d-flex p-jc-between header">
+    <div class="headerTabs">
+        <label class="my-lanes">My Lanes</label>
+        <label class="active-lanes">All Active Lanes </label>
+    </div>
+    <div class="name">
+        <label >Aaron Williams</label>
+        <i class="pi pi-align-justify"></i>
+    </div>
+</div>
+<div class="p-d-flex p-jc-between tabs">
+    <p-tabMenu [model]="items"  [activeItem]="items[0]"></p-tabMenu>
+    <div>
+        <span class="p-input-icon-left">
+            <i class="pi pi-search"></i>
+            <input type="text" pInputText />
+        </span>
+        <button pButton class="upload-btn" type="button" ><i class="pi pi-arrow-circle-up"></i>&nbsp;&nbsp;Upload</button>
+    </div>
+</div>
+<div class="p-d-flex content">
+<p-card class="card"> 
+    <ng-template pTemplate="header">
+        <label>Filter</label>
+    </ng-template>
+    <div class="p-d-flex p-flex-column">
+        <label>Carrier</label>
+        <input type="text" pInputText />
+        <hr >
+        <label>EquipmentType</label>
+        <input type="text" pInputText />
+        <hr >
+        <label>Lane Type</label>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >Outbound</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >Inbound</label>
+            </div>
+        </div>
+        <div class="p-field-checkbox">
+            <p-checkbox ></p-checkbox>
+            <label >Interplant</label>
+        </div>
+        <hr>
+        <label>Rate Type</label>
+        <input type="text" pInputText />
+        <hr >
+        <label>Origin</label>
+        <input type="text" placeholder="Name" pInputText />
+        <input type="text" placeholder="City" pInputText />
+        <div class="p-grid">
+            <div class="p-col-3">
+                <input type="text" placeholder="ST" pInputText />
+            </div>
+            <div class="p-col-6">
+                <input type="text" placeholder="Zip" pInputText />
+            </div>
+           
+        </div>
+        <hr>
+        <label>Service Description</label>
+        <input type="text" pInputText />
+        <hr >
+        <label>Service Codes</label>
+        <input type="text" pInputText />
+        <hr >
+        <label>Equipment Type</label>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >V</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >VR</label>
+            </div>
+        </div>
+        <div class="p-field-checkbox">
+            <p-checkbox ></p-checkbox>
+            <label >FB</label>
+        </div>
+        <hr>
+        <label>Equipment Length</label>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >53</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >48</label>
+            </div>
+        </div>
+        <hr>
+        <label>Service Type</label>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >TL</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >IM</label>
+            </div>
+        </div>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >TL Brokerage</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >Reefer</label>
+            </div>
+        </div>
+        <div class="p-field-checkbox">
+            <p-checkbox ></p-checkbox>
+            <label >Flatbed</label>
+        </div>
+        <hr>
+        <label>Maximum Weight</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Effective Date</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Expiration Date</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Rate Per Mile </label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Commitment</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Allocation Type</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Annual Awarded Volume </label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Loading Type</label>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >Live Load</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >Live Unload</label>
+            </div>
+        </div>
+        <hr>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >USD</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >CDN</label>
+            </div>
+        </div>
+        <hr>
+        <label>Transit Days</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Package Name</label>
+        <input type="text" pInputText />
+        <hr>
+        <label>Team</label>
+        <div class="p-formgroup-inline">
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >Yes</label>
+            </div>
+            <div class="p-field-checkbox">
+                <p-checkbox ></p-checkbox>
+                <label >No</label>
+            </div>
+        </div>
+        <hr>
+        <label>Age</label>
+        <input type="text" pInputText />
+        <hr>
+    </div>
+   
+</p-card>
+
+</div>
+
