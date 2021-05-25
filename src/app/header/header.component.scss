@@ -2,6 +2,7 @@
   background-color: cadetblue;
  border:0px;
  border-radius: 0px;
+ height:80px;
  .logo{
     width:250px;
   }
@@ -20,6 +21,9 @@
     }
   :host ::ng-deep .p-sidebar-left{
     width:200px !important;
+  .p-sidebar-header{
+    padding: 0%;
+  }
   }
   .logo{
     margin-left: 10px;
