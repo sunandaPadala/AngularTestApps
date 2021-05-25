@@ -1,7 +1,8 @@
 .align-center{
-  //  display: flex;
-  //  align-items: center;
-    margin-top: 207px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
 }
 .header{
     width: 656px;
@@ -23,12 +24,12 @@
     border-radius: 5px;
 }
 h3{
-     font-weight: 500;
+    font-weight: 500;
     font-size: 18px;
     color: #000000;
-     margin: 0px;
-     display: flex;
-     justify-content: center;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
 }
 p{
     margin-left: 8px;
@@ -41,32 +42,14 @@ h1{
     align-items: center;
     margin: 0px;
 }
-.pendingImage{
-    background-image: url('/../assets/Ellipse 5.png');
-    background-repeat: no-repeat;
-    margin-left: 155px;
-}
-.approvedImage{
-    background-image: url('/../assets/Ellipse 5.png');
-    background-repeat: no-repeat;
-    margin-left: 80px;
-}
-.lanesImage{
-    background-image: url('/../assets/Ellipse 5 (1).png');
-    background-repeat: no-repeat;
-    margin-left: 80px;
-}
-.disputesImge{
-    background-image: url('/../assets/Ellipse 5 (3).png');
-    background-repeat: no-repeat;
-    margin-left: 155px;
+img{
+    width: 104px;
+    height: 104px;
 }
 .rate{
     height: 104px;
-    padding-top: 14px;
-    /* padding-bottom: 0px; */
     padding-left: 13px;
     background-color: #f6f8f9;
     padding-right: 13px;
+    overflow: hidden;
 }
-
