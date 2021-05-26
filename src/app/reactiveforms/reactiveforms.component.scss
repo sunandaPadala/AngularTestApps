@@ -1,43 +1,10 @@
-.p-shadow-1{
-  width:630px;
-  height:70%;
-  margin-left:400px;
-  margin-top: 200px;
-}
-h2{
-  margin-left: 230px;
-}
 .p-d-flex{
-  background-color: cadetblue;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.name{
-  margin-left:30px;
-  margin-top: 20px;
-  font-size: 18px;
-  font-weight: normal;
-}
-.inputname{
-  border:1px solid;
-  width:250px;
-  height:25px;
-  margin-left:30px;
-}
-.title{
-  font-size: 20px;
-  margin-left:20px;
-  margin-top: 5px;
-}
-::ng-deep .p-dropdown {
-  margin-left: 30px;
-  width:250px;
-  height:30px;
-}
-p-checkbox{
-  margin-left: 30px;
-}
-.gender{
-  margin:5px;
-}
+
 .p-button-secondary{
   width:100px;
   margin-left: 250px;

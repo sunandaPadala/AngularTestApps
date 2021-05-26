@@ -1,12 +1,12 @@
-<div class="p-shadow-1">
+<div class="p-d-flex">
+  <div class="p-fluid p-formgrid p-grid">
   <form [formGroup]="userForm">
-    <div class="p-d-flex"><h2>Register Form</h2></div>
-    <div class="p-fluid p-formgrid p-grid">
-      <div class="p-field p-col-12 p-md-6">
+    <div class="p-text-center">RegisterForm</div>
+      <div class="p-field p-col-6 p-md-6">
           <label class="name">Firstname</label>
           <input class="inputname" type="text" pInputText formControlName="firstName">
       </div>
-      <div class="p-field p-col-12 p-md-6">
+      <div class="p-field p-col-6 p-md-6">
           <label class="name">Lastname</label>
           <input class="inputname" type="text" pInputText formControlName="lastName">
       </div>
@@ -27,7 +27,7 @@
         </div>
         <div class="p-col p-md-6">
             <label class="name">State</label>
-            <p-dropdown [options]="cities" formControlName="state" optionLabel="name" ></p-dropdown>
+            <p-dropdown [options]="cities" optionLabel="name"></p-dropdown>
         </div>
         <div class="p-field p-col-12 p-md-6">
           <label class="name">Street</label>
@@ -49,7 +49,8 @@
       <label class="gender">Female</label>
   </div>
   <button pButton type="button" label="Sign Up" class="p-button-secondary"></button>
-      </div>
+
   </form>
   </div>
+
 

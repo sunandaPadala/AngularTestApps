@@ -13,19 +13,20 @@ export class ReactiveformsComponent implements OnInit {
     emailid: new FormControl(''),
     city: new FormControl(''),
     state: new FormControl(''),
-    street: new FormControl(''),
     zip: new FormControl(''),
     gender: new FormControl(''),
   });
-  cities = [
+   cities = [
     {name: 'New York', code: 'NY'},
     {name: 'Rome', code: 'RM'},
     {name: 'London', code: 'LDN'},
     {name: 'Istanbul', code: 'IST'},
     {name: 'Paris', code: 'PRS'}
 ];
-  constructor() { }
+constructor() {}
 
-  ngOnInit(): void {}
+
+ngOnInit(): void {}
 
 }
+
