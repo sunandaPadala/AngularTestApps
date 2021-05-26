@@ -1,0 +1,22 @@
+<div *ngFor="let a of arr">
+    <div class="p-grid">
+        <div class="p-col-12 p-lg-6 p-md-12">
+            <div class="p-d-flex p-flex-column pending">
+                <div class="p-d-flex p-jc-between rate">
+                    <h1>{{a.header1}}</h1>
+                    <img src="{{a.url1}}">
+                </div>
+                <p>{{a.text1}}</p>
+            </div>
+        </div>
+        <div class="p-col-12 p-lg-6 p-md-12">
+            <div class="p-d-flex p-flex-column pending">
+                <div class="p-d-flex p-jc-between rate">
+                    <h1>{{a.header2}}</h1>
+                    <img src="{{a.url2}}">
+                </div>
+                <p>{{a.text2}}</p>
+            </div>
+        </div>
+    </div>
+</div>
