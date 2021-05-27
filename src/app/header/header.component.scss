@@ -15,16 +15,19 @@
 .overlay{
   display:none
 }
- @media (min-width: 300px) and (max-width: 767px) {
+::ng-deep .p-slidemenu.p-slidemenu-overlay{
+    height:100%;
+    top:58px !important;
+}
+::ng-deep .p-slidemenu .p-slidemenu-content {
+      overflow:inherit !important;
+    }
+
+
+@media (min-width: 300px) and (max-width: 767px) {
   .overlay{
      display: block;
     }
-  :host ::ng-deep .p-sidebar-left{
-    width:200px !important;
-  .p-sidebar-header{
-    padding: 0%;
-  }
-  }
   .logo{
     margin-left: 10px;
     width: 100px;
