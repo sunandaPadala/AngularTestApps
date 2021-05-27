@@ -8,6 +8,9 @@ import {ButtonModule} from 'primeng/button';
 import {DropdownModule} from 'primeng/dropdown';
 import {CheckboxModule} from 'primeng/checkbox';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {CardModule} from 'primeng/card';
+import {AutoCompleteModule} from 'primeng/autocomplete';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -21,7 +24,9 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
     DropdownModule,
     FormsModule,
     CheckboxModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    CardModule,
+    AutoCompleteModule
   ],
   providers: [],
   bootstrap: [AppComponent]

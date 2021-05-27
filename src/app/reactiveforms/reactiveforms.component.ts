@@ -16,17 +16,24 @@ export class ReactiveformsComponent implements OnInit {
     zip: new FormControl(''),
     gender: new FormControl(''),
   });
+  city: any;
    cities = [
-    {name: 'New York', code: 'NY'},
-    {name: 'Rome', code: 'RM'},
-    {name: 'London', code: 'LDN'},
-    {name: 'Istanbul', code: 'IST'},
-    {name: 'Paris', code: 'PRS'}
+    {name: 'Andhra Pradesh', code: 'AP'},
+    {name: 'TamilNadu', code: 'TN'},
+    {name: 'Kerala', code: 'KL'},
+    {name: 'Hariyana', code: 'HY'},
+    {name: 'Odissa', code: 'OD'},
+    {name: 'Gujarat', code: 'GJ'},
+    {name: 'Maharastra', code: 'MR'},
+    {name: 'Karnataka', code: 'KT'},
+    {name: 'Punjab', code: 'PJ'},
+    {name: 'Jarakhand', code: 'JK'}
 ];
+text = [];
 constructor() {}
-
-
 ngOnInit(): void {}
-
+search(event){
+  this.text = this.cities.filter(c => c.name.startsWith(event.query));
+}
 }
 

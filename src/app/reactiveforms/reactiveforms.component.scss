@@ -1,15 +1,36 @@
-.p-d-flex{
-  height: 100%;
+.page{
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
+}
+::ng-deep .p-card .p-card-body{
+  background: whitesmoke;
+}
+.heading{
+  font-size: 25px;
+  background-color: lightblue;
+  margin-bottom: 20px;
+}
+.name{
+  font-size: 18px;
+  font-weight: lighter;
+}
+.title{
+  font-size: 22px;
+  margin-bottom:10px ;
+}
+.p-field-checkbox{
+  label{
+  margin-bottom: 0px;
+}
+}
+.signup-btn{
+  margin-left: 180px;
+  margin-top: 10px;
+  background:steelblue !important;
 }
 
-.p-button-secondary{
-  width:100px;
-  margin-left: 250px;
-  background: cadetblue;
-  margin-top:10px;
-}
+
 
 
