@@ -16,6 +16,17 @@ import {SlideMenuModule} from 'primeng/slidemenu';
     HeaderComponent,
     SidenavComponent,
     PageComponent
+
+import { DataTableComponent } from './components/data-table/data-table.component';
+import { TableModule } from 'primeng/table';
+import { HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {ButtonModule} from 'primeng/button';
+
+@NgModule({
+  declarations: [
+    AppComponent,
+    DataTableComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +36,10 @@ import {SlideMenuModule} from 'primeng/slidemenu';
     MenuModule,
     BrowserAnimationsModule,
     SlideMenuModule
+    TableModule,
+    HttpClientModule,
+    BrowserAnimationsModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent]
