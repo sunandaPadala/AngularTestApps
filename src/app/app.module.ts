@@ -8,10 +8,16 @@ import {TabMenuModule} from 'primeng/tabmenu';
 import {InputTextModule} from 'primeng/inputtext';
 import {CardModule} from 'primeng/card';
 import {CheckboxModule} from 'primeng/checkbox';
+import {DropdownModule} from 'primeng/dropdown';
+import { FilterComponent } from './components/filter/filter.component';
+import { PendingInfoComponent } from './components/pending-info/pending-info.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    PendingApprovalComponent
+    PendingApprovalComponent,
+    FilterComponent,
+    PendingInfoComponent
   ],
   imports: [
     BrowserModule,
@@ -20,7 +26,8 @@ import {CheckboxModule} from 'primeng/checkbox';
     TabMenuModule,
     InputTextModule,
     CardModule,
-    CheckboxModule
+    CheckboxModule,
+    DropdownModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
