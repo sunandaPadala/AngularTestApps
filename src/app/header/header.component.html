@@ -1,0 +1,16 @@
+<div>
+<p-toolbar>
+  <div class="p-toolbar-group-left">
+    <div>
+      <p-slideMenu #menu [model]="items" [popup]="true"></p-slideMenu>
+      <button class="overlay" type="button" pButton icon="pi pi-list" (click)="menu.toggle($event)"></button>
+    </div>
+    <img class="logo" src="../assets/images/logo.jpeg">
+  </div>
+  <div class="p-toolbar-group-right">
+    <button pButton type="button" class="icon" icon="pi pi-users" ></button>
+  </div>
+</p-toolbar>
+</div>
+
+

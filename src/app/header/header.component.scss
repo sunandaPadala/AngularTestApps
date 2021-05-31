@@ -1,0 +1,38 @@
+ ::ng-deep .p-toolbar{
+  background-color: cadetblue;
+ border:0px;
+ border-radius: 0px;
+ height:80px;
+ .logo{
+    width:250px;
+  }
+  .icon{
+    background-color: darkslategray;
+    border-radius: 70px;
+  }
+}
+
+.overlay{
+  display:none
+}
+::ng-deep .p-slidemenu.p-slidemenu-overlay{
+    height:100%;
+    top:58px !important;
+}
+::ng-deep .p-slidemenu .p-slidemenu-content {
+      overflow:inherit !important;
+    }
+
+
+@media (min-width: 300px) and (max-width: 767px) {
+  .overlay{
+     display: block;
+    }
+  .logo{
+    margin-left: 10px;
+    width: 100px;
+    height: 30px
+  }
+}
+
+

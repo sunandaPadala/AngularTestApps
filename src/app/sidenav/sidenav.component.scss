@@ -1,0 +1,17 @@
+::ng-deep .p-menu{
+  margin-top: 0.1px;
+  width: 15%;
+  height:calc(100vh - 80px);
+  background: lavenderblush;
+ border:0px;
+ border-radius: 0px;
+}
+
+@media (min-width: 300px) and (max-width: 767px) {
+  :host ::ng-deep .p-menu{
+    display: none;
+  }
+}
+
+
+
